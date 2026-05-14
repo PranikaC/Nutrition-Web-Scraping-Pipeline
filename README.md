@@ -1,10 +1,10 @@
 # Meal Plan Webscraping and Nutrition Comparison
 
-This project scrapes weekly meal plans from Tastes Better From Scratch, matches the meals with recipe data from the Tasty API, and compares the meals using nutrition and cooking time information.
+This project webscrapes weekly meal plans from the Tastes Better From Scratch website, matches user-specified meals with recipe data from the Tasty API, and compares the meals using nutrition and cooking time information.
 
 ## Project Goal
 
-The goal of this project is to turn a weekly meal plan into a more useful nutrition comparison. The notebook collects meal names, prices, recipe links, cook times, ingredients, calories, protein, carbs, and fat. It then uses this information to compare meals and meal plans.
+The goal of this project is to extract weekly meal plans for more useful nutritional value. The notebook collects meal names, prices, recipe links, cook times, ingredients, calories, protein, carbs, and fat. It then uses this information to compare meals with nutritional value such as calorie intake, carbs, and protein.
 
 ## Files
 
@@ -48,19 +48,15 @@ Combines the scraping step and the recipe matching step into one function.
 
 ## Graphs
 
-The calorie graph compares calories for vegetarian and non vegetarian meals in Meal Plan 202.
+The calorie graph compares calories for vegetarian and non vegetarian meals from Meal Plan #202. Additionally, the protein and carbohydrate graph compares protein and carbs for each vegetarian and non vegetarian meal from Meal Plan #202.
 
-The protein and carbohydrate graph compares protein and carbs for each meal in Meal Plan 202.
-
-These graphs help show that vegetarian meals are not always lower in calories and that meals like Chicken Gyros and Beef Noodle Soup can be stronger protein options.
+These graphs were then repeated for Meal Plan #111.
 
 ## Final Comparison
 
-The final comparison looks at Meal Plan 111 and Meal Plan 202.
+The final comparison looks at Meal Plan #111 and Meal Plan #202.
 
-Meal Plan 111 is generally more balanced in the cleaned results because it has lower average calories and carbs while still having slightly higher average protein.
-
-Meal Plan 202 has more variety and includes strong protein options like Chicken Gyros and Beef Noodle Soup, but some meals are heavier in calories and carbs.
+Meal Plan #111 has lower average calories and carbs while still having slightly higher average protein whereas Meal Plan #202 has more food variety with stronger protein options like Chicken Gyros and Beef Noodle Soup, but have higher carb intake.
 
 ## How To Run
 
