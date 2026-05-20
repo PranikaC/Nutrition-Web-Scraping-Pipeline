@@ -179,7 +179,7 @@ Splitting protein (purple) and carbs (pink) per meal, faceted by vegetarian stat
 
 ---
 
-# Results Interpretation
+# Demonstration & Applications
 
 The pipeline demonstrates how a small but reusable scraping-plus-API workflow can produce comparable, analyzable nutrition data without manual entry.
 
