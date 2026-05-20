@@ -122,19 +122,6 @@ The preprocessing layer turns two heterogeneous sources into one clean per-meal 
 
 ---
 
-# Pipeline Architecture
-
-```mermaid
-%%{init: {"theme": "default", "themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 25, "rankSpacing": 30}}}%%
-flowchart LR
-    A[Meal Plan Number] --> B[get_mealplan_data wrapper]
-    B --> C[get_weekly_plan: scrape blog HTML]
-    C --> D[match_recipe: Tasty API + fuzzy match]
-    D --> E[Enriched Meal Table]
-    E --> F[Drop NaN Rows]
-    F --> G[Vegetarian Labeling]
-    G --> H[Cross-Plan Comparison Charts]
-```
 
 ### Core Functions
 
