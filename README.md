@@ -162,13 +162,13 @@ flowchart LR
 
 For Meal Plan `202`, the vegetarian meals — Stuffed Shells (~6,700 cal) and Vegetarian Stuffed Peppers (~7,300 cal) — sit well above the non-vegetarian options Beef Noodle Soup (~3,500 cal) and Chicken Gyros (~2,300 cal). The chart makes it visually clear that the higher per-plan calorie average for `202` is driven by the two pasta-and-grain-heavy vegetarian dishes rather than by the meat-based meals.
 
-<img src="images/calories-veg-vs-nonveg.png" alt="Calories for vegetarian vs non-vegetarian meals in Meal Plan 202" width="500">
+<img src="calories-veg-vs-nonveg.png" alt="Calories for vegetarian vs non-vegetarian meals in Meal Plan 202" width="500">
 
 ### Protein and Carbohydrates by Meal
 
 Splitting protein (purple) and carbs (pink) per meal, faceted by vegetarian status, exposes a clear macro-nutrient pattern. Carbs lead protein in every meal, but the gap is uneven: Beef Noodle Soup and Vegetarian Stuffed Peppers are the carb-heavy outliers (each roughly twice as much carb as protein), while Chicken Gyros and Stuffed Shells stay much closer to balanced.
 
-<img src="images/protein-carbs-by-meal.png" alt="Protein and carbohydrate content by meal, faceted by vegetarian status" width="500">
+<img src="protein-carbs-by-meal.png" alt="Protein and carbohydrate content by meal, faceted by vegetarian status" width="500">
 
 ### Key Findings
 - The pipeline successfully bridges an unstructured blog source and a structured API into one comparable table
