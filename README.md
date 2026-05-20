@@ -85,7 +85,7 @@ This is a data-engineering and exploratory-analysis project, not a modeling proj
 
 # Exploratory Data Analysis (EDA)
 
-### Key Insights
+### Key Findings
 - Meal Plan `111` averages 472.0 calories, 31.1 g protein, 37.7 g carbs per meal
 - Meal Plan `202` averages 559.6 calories, 29.4 g protein, 52.4 g carbs per meal
 - Meal Plan `202`'s higher calorie total is driven by two carb-heavy vegetarian entries (Stuffed Shells, Vegetarian Stuffed Peppers), not by its meat dishes
@@ -179,7 +179,7 @@ Splitting protein (purple) and carbs (pink) per meal, faceted by vegetarian stat
 
 ---
 
-# Insight Interpretation
+# Results Interpretation
 
 The pipeline demonstrates how a small but reusable scraping-plus-API workflow can produce comparable, analyzable nutrition data without manual entry.
 
